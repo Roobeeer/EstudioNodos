@@ -1,5 +1,9 @@
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Cola cola = new Cola();
+        cola.encolar(1);
+        cola.encolar(2);
+        cola.encolar(3);
     }
 }
