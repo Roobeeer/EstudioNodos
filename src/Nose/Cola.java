@@ -1,3 +1,5 @@
+package Nose;
+
 public class Cola {
 
     private NodoInt primero;
@@ -16,14 +18,12 @@ public class Cola {
         NodoInt nuevo = new NodoInt(dato);
         if (primero == null) {
             primero = nuevo;
-        }else {
+        } else {
             ultimo.siguiente = nuevo;
         }
         ultimo = nuevo;
         talla++;
     }
-
-
 
 
 
