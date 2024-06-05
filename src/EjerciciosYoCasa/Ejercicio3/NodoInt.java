@@ -1,4 +1,4 @@
-package EjerciciosYoCasa.Ejercicio2;
+package EjerciciosYoCasa.Ejercicio3;
 public class NodoInt {
     public int dato;
     public NodoInt siguiente;
